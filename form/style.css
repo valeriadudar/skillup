@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    color: #777;
+    font-weight: 100;
+    background-color: rgb(55, 190, 55);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#contact {
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    margin: 150px 0;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 5px 0 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+}
+
+#input-name,
+#input-email,
+#input-number,
+#input-website,
+#input-textarea,
+#input-button {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 5px;
+    padding: 10px;
+}
+
+#input-textarea{
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#input-button{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background-color: rgb(55, 190, 55);
+    color: white;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#input-button:hover{
+    background-color: rgb(187, 201, 31);
+}
+
+.copyright{
+    text-align: center;
+}
+
+@media (min-width:800px) and (max-width:1200px){
+    body{
+        font-size: 15px;
+        color: red;
+    }
+    .container{
+        color: green;
+        width: 200px;
+    }
+    #contact{
+        background: rgb(213, 207, 207);
+        padding: 20px;
+        margin: 120px 0;
+    }
+    h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        color: black;
+    }
+    h2{
+    margin: 5px 0 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    }
+    #input-name,
+    #input-email,
+    #input-number,
+    #input-website,
+    #input-textarea,
+    #input-button {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: rgba(251, 248, 248, 0.73);
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+#input-button{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background-color: rgb(15, 186, 15);
+    color: white;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+}

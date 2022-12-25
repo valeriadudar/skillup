@@ -1,0 +1,54 @@
+#seventh-paragraph{
+   border: 3px solid blue;
+   font-size: 35px; 
+   font-weight: bold;
+}
+.paragraph-1{
+    font-size: 25px;
+    border-right: 3px dashed red;
+    
+}
+.word{
+    color: red;
+}
+.paragraph-2{
+    color: white;
+    background-color: black;
+    font-size: 27px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.paragraph-3{
+    font-size: 25px;
+    border-right: 3px dashed red;
+}
+.paragraph-4{
+    color: white;
+    background-color: black;
+    font-size: 27px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.paragraph-5{
+    font-size: 25px;
+    border-right: 3px dashed red;
+}
+.paragraph-6{
+    color: white;
+    background-color: black;
+    font-size: 27px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.paragraph-8{
+    font-size: 25px;
+    border-right: 3px dashed red;
+}
+.paragraph-9{
+    font-size: 25px;
+    border-right: 3px dashed red;
+}
+.paragraph-10{
+    font-size: 25px;
+    border-right: 3px dashed red;
+}
